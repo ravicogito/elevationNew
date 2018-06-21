@@ -1,0 +1,60 @@
+/*!
+ *   Custom Css
+ *   Author: Abdulla *	
+ */
+/*
+ * Core: General Layout Style
+ * -------------------------
+ */
+
+.event_field .form-group > h3 {
+    font-size: 17px;
+}
+.event_field .category_section .form-group.sub_cat {
+    background: #6b7377 none repeat scroll 0 0;
+    margin: -9px 0 10px;
+    overflow: hidden;
+    padding: 5px 0 10px;
+}
+.event_field .category_section .form-group.sub_cat strong{
+	color:#fff;
+}
+.event_field .category_section .form-group.sub_cat input[type="checkbox"] {
+    display: block;
+    float: left;
+    margin: 4px 6px 0 0;
+}
+.event_field .category_section .form-group.sub_cat input[type="text"] {
+    margin: 3px 0 0;
+}
+.event_field .category_section .form-group.sub_cat .col-md-12 .col-md-3 {
+    padding-left: 0;
+    width: 24.3%;
+}
+.cop_title > h3 {
+    border-bottom: 1px dashed #000;
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 12px;
+    padding-bottom: 7px;
+}
+.event_field .form-group {
+    margin-bottom: 0;
+}
+.event_field .form-group label{
+margin:0;
+padding:4px;
+}
+.category_section .form-group {
+    background: #aaa none repeat scroll 0 0;
+}
+.event_field .category_section .form-group {
+    background: #aaa none repeat scroll 0 0;
+    margin: 0 0 10px;
+}
+.event_field .category_section .form-group label{text-transform:uppercase;}
+.event_field .form-group label input[type="checkbox"] {
+    display: block;
+    float: left;
+    margin: 4px 4px 0;
+}

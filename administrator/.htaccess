@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|user_guide|stylesheets|uploads|assets|release|Images|robots\.txt|theme-v1)
+
+RewriteRule ^(.*)$ /elevationNew/administrator/index.php/$1 [L]
